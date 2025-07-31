@@ -103,3 +103,9 @@ review_scores_value
    df['log_number_of_reviews_l30d'] = np.log1p(df['number_of_reviews_l30d'])
    ```
 3. Load the trained model and predict!
+
+**Note:**  
+This project does not require you to download the original training dataset if you only want to make predictions.  
+You can use any new Airbnb dataset as long as it contains the same feature columns listed above.  
+If you want to retrain the model from scratch, you will need to supply a dataset with these columns, clean it, and run the training notebook.
+
